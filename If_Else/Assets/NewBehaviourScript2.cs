@@ -1,23 +1,18 @@
-﻿using UnityEngine;
-using System.Collections;
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
 
 public class NewBehaviourScript2 : MonoBehaviour {
 
-    int i = 0;
-    public string[] colors;
-
-	// Use this for initialization
+    public string[] arrayString = new string[3];
+	// Use this for initialization1
 	void Start () {
-        while(i < colors.Length)
-        {
-            print(colors[i]);
-            (i)++;
-        }
-        print("done");
+        arrayString[0] = ("String 0");
+        arra
 	}
 	
 	// Update is called once per frame
 	void Update () {
-	
+		
 	}
 }

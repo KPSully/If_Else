@@ -1,22 +1,22 @@
-﻿using UnityEngine;
-using System.Collections;
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
 
-public class NewBehaviourScript3 : MonoBehaviour {
+public class NewBehaviourScript2 : MonoBehaviour {
+
+    public [] Colors;
 
 	// Use this for initialization
 	void Start () {
-	
+		while (i < Colors.length)
+            {
+            i++;
+
+        }
 	}
 	
-	// Update is called once per frame, with KeyCode try to isolate them all into ONE update.
-	void Update() {
-        if (Input.GetKey(KeyCode.A))
-        {
-            print("A");
-        }
-        else
-        {
-            print("No input");
-        }
-    }
+	// Update is called once per frame
+	void Update () {
+		
+	}
 }
