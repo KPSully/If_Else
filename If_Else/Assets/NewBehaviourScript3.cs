@@ -4,11 +4,12 @@ using UnityEngine;
 
 public class NewBehaviourScript2 : MonoBehaviour {
 
-    public [] Colors;
+    public string[] Colors;
+    private int i;
 
-	// Use this for initialization
-	void Start () {
-		while (i < Colors.length)
+    // Use this for initialization
+    void Start () {
+		while (i < Colors.Length)
             {
             i++;
 
